@@ -47,6 +47,10 @@ def buy_dog(name)
 def walk_dogs
     self.dogs.each {|dog| dog.mood = "happy"}
   end
+  def feed_cats
+    self.cqts.each {|cqt| cat.mood = "happy"}
+  end
+  
 end 
 
 
