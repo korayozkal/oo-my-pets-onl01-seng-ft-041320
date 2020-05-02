@@ -51,6 +51,9 @@ def walk_dogs
     self.cats.each {|cat| cat.mood = "happy"}
   end
   
+  def sell_pets
+    self.cats.each {|cat| self.cats.erase}
+  
 end 
 
 
